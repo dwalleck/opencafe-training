@@ -34,6 +34,10 @@
    - __json_to_obj
    - request_entity and response_entity_type
   - requestlibkawrgs
+  - Plugins
+    - HTTP
+    - SSH
+    - WinRM
 - Metatests
 
 ## Test Design
