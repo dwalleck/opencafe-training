@@ -1,0 +1,20 @@
+2018-03-14 16:36:08,186: DEBUG: urllib3.connectionpool: Starting new HTTPS connection (1): iad.servers.api.rackspacecloud.com
+2018-03-14 16:36:08,604: DEBUG: urllib3.connectionpool: https://iad.servers.api.rackspacecloud.com:443 "GET /v2/658803/flavors/2 HTTP/1.1" 200 501
+2018-03-14 16:36:08,619: DEBUG: cafe.engine.http.client: 
+------------
+REQUEST SENT
+------------
+request method..: GET
+request url.....: https://iad.servers.api.rackspacecloud.com/v2/658803/flavors/2
+request params..: 
+request headers.: {'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'X-Auth-Token': u'AABHLT8byy6WaVBy-xwyt0YFsP9sdPCk6ExuQjAXzOAJ3GHaGZ4h3es8j7N7OV6CXww-WMucah7okiYkY7IN-v-GvUNIaN19PaIj06fbjOc1dstYKv792Y7I', 'Connection': 'keep-alive', 'User-Agent': 'python-requests/2.18.4', 'Content-Type': 'application/json'}
+request body....: None
+
+2018-03-14 16:36:08,619: DEBUG: cafe.engine.http.client: 
+-----------------
+RESPONSE RECEIVED
+-----------------
+response status..: <Response [200]>
+response time....: 0.432732105255
+response headers.: {'Content-Length': '501', 'Via': '1.1 Repose (Repose/7.1.5.1)', 'X-Compute-Request-Id': 'req-3a474192-2d29-4d30-998d-eb0ba377cb42', 'Server': 'Jetty(9.2.z-SNAPSHOT)', 'x-trans-id': '8fb24d44-e594-43d9-b9cb-62f82bb2592b', 'Date': 'Wed, 14 Mar 2018 21:36:08 GMT, Wed, 14 Mar 2018 21:36:08 GMT', 'Content-Type': 'application/json'}
+response body....: {"flavor": {"OS-FLV-WITH-EXT-SPECS:extra_specs": {"policy_class": "standard_flavor", "class": "standard1", "disk_io_index": "2", "number_of_data_disks": "0"}, "name": "512MB Standard Instance", "links": [{"href": "https://iad.servers.api.rackspacecloud.com/v2/658803/flavors/2", "rel": "self"}, {"href": "https://iad.servers.api.rackspacecloud.com/658803/flavors/2", "rel": "bookmark"}], "ram": 512, "vcpus": 1, "swap": 512, "rxtx_factor": 80.0, "OS-FLV-EXT-DATA:ephemeral": 0, "disk": 20, "id": "2"}}

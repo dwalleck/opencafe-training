@@ -45,6 +45,7 @@
 - Fixtures and fixture inheritance
   - Basics of unittest order of execution
   - How base classes impact order of test execution
+- Assertions
 - Test decorators
   - skipIf
     - Skipping based on feature availability
