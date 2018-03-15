@@ -1,5 +1,6 @@
-import unittest
 import inspect
+import unittest
+
 
 class TestBase(unittest.TestCase):
 
@@ -34,19 +35,23 @@ class TestDemo(TestBase):
         cls.log_class_point(cls.__name__, method_name)
     
     def setUp(self):
-        self.logPoint()
+        self.log_method()
     
     def tearDown(self):
-        self.logPoint()
+        self.log_method()
     
     def test_first_thing(self):
-        self.logPoint()
+        self.log_method()
     
-    def logPoint(self):
+    def test_second_thing(self):
+        self.log_method()
+    
+    def log_method(self):
         currentTest = self.id().split('.')[-1]
         callingFunction = inspect.stack()[1][3]
         print('{0} - {1}'.format(
             self.__class__.__name__, callingFunction))
+
 
 if __name__ == '__main__':
     unittest.main()
