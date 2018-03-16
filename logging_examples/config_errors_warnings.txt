@@ -1,0 +1,7 @@
+
+2018-03-15 19:21:26,415: ERROR: cafe.engine.models.data_interfaces.ConfigParserDataSource: No option 'default_network' in section: 'servers'
+2018-03-15 19:21:26,415: WARNING: cafe.engine.models.data_interfaces.ConfigParserDataSource: No option 'default_scheduler_hints' in section: 'servers'.  Using default value 'None' instead
+2018-03-15 19:21:26,415: WARNING: cafe.engine.models.data_interfaces.ConfigParserDataSource: No option 'default_injected_files' in section: 'servers'.  Using default value 'None' instead
+2018-03-15 19:21:26,415: ERROR: cafe.engine.models.data_interfaces.ConfigParserDataSource: No section: 'security_groups'
+2018-03-15 19:21:26,415: WARNING: cafe.engine.models.data_interfaces.ConfigParserDataSource: No option 'default_scheduler_hints' in section: 'servers'.  Using default value 'None' instead
+2018-03-15 19:21:26,416: WARNING: cafe.engine.models.data_interfaces.ConfigParserDataSource: No section: 'PLUGIN.HTTP'.  Using default value '0' instead

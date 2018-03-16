@@ -1,0 +1,24 @@
+
+2018-03-15 19:21:24,084: INFO: root: ========================================================
+2018-03-15 19:21:24,086: INFO: root: Fixture......: cloudroast.compute.instance_actions.api.test_create_server.ServerFromImageCreateServerTests
+2018-03-15 19:21:24,086: INFO: root: Created At...: 2018-03-15 19:21:24.084014
+2018-03-15 19:21:24,086: INFO: root: ========================================================
+
+
+2018-03-15 19:23:43,792: INFO: root: ========================================================
+2018-03-15 19:23:43,792: INFO: root: Test Case......: test_create_server_admin_password
+2018-03-15 19:23:43,793: INFO: root: Result.........: Passed
+2018-03-15 19:23:43,793: INFO: root: Start Time.....: 2018-03-15 19:23:43.791803
+2018-03-15 19:23:43,793: INFO: root: Elapsed Time...: 0:00:00.000947
+2018-03-15 19:23:43,793: INFO: root: ========================================================
+
+2018-03-15 19:23:43,797: INFO: root: ========================================================
+2018-03-15 19:23:43,797: INFO: root: Fixture........: cloudroast.compute.instance_actions.api.test_create_server.ServerFromImageCreateServerTests
+2018-03-15 19:23:43,797: INFO: root: Result.........: Passed
+2018-03-15 19:23:43,797: INFO: root: Start Time.....: 2018-03-15 19:21:24.084014
+2018-03-15 19:23:43,797: INFO: root: Elapsed Time...: 0:02:19.713318
+2018-03-15 19:23:43,797: INFO: root: Total Tests....: 2
+2018-03-15 19:23:43,798: INFO: root: Total Passed...: 2
+2018-03-15 19:23:43,798: INFO: root: Total Failed...: 0
+2018-03-15 19:23:43,798: INFO: root: Total Errored..: 0
+2018-03-15 19:23:43,798: INFO: root: ========================================================
