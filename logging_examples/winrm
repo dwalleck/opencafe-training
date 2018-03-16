@@ -1,0 +1,7 @@
+
+2018-03-06 23:27:30,928: DEBUG: cafe.engine.winrm.client.WinRMClient: Attempting connection 1 of 10 to 10.71.38.44.
+2018-03-06 23:27:34,720: DEBUG: cafe.engine.winrm.client.WinRMClient: Executing command: powershell Get-Date 
+2018-03-06 23:27:35,927: DEBUG: cafe.engine.winrm.client.WinRMClient: Stdout: Tuesday, March 6, 2018 11:27:34 PM
+2018-03-06 23:27:35,928: DEBUG: cafe.engine.winrm.client.WinRMClient: Stderr: 
+2018-03-06 23:27:35,928: DEBUG: cafe.engine.winrm.client.WinRMClient: Status code: 0
+

@@ -1,0 +1,27 @@
+
+2018-03-15 19:23:50,896: DEBUG: cafe.engine.ssh.client.SSHClient: Attempting connection to 162.209.99.11.
+2018-03-15 19:23:50,897: DEBUG: cafe.engine.ssh.client.SSHClient: Attempting to SSH connect to 162.209.99.11 with user root and strategy password.
+2018-03-15 19:23:51,489: DEBUG: cafe.engine.ssh.client.SSHClient: Executing command: fdisk -l
+2018-03-15 19:23:51,654: DEBUG: cafe.engine.ssh.client.SSHClient: Stdout: 
+Disk /dev/xvda: 21.5 GB, 21474836480 bytes
+255 heads, 63 sectors/track, 2610 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0x0003e086
+
+    Device Boot      Start         End      Blocks   Id  System
+/dev/xvda1   *           1        2611    20970496   83  Linux
+
+Disk /dev/xvdc: 536 MB, 536870912 bytes
+70 heads, 4 sectors/track, 3744 cylinders
+Units = cylinders of 280 * 512 = 143360 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0x000c9dbd
+
+    Device Boot      Start         End      Blocks   Id  System
+/dev/xvdc1               8        3745      523264   83  Linux
+
+2018-03-15 19:23:51,654: DEBUG: cafe.engine.ssh.client.SSHClient: Stderr: 
+2018-03-15 19:23:51,655: DEBUG: cafe.engine.ssh.client.SSHClient: Exit status: None
